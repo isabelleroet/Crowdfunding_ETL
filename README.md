@@ -22,6 +22,18 @@
 - Creating a category dataframe with the category_id array as the category_id and categories lists as the category name
 - Creating a category dataframe with the subcategory_id array as the subcategory_id and subcategories lists as the category name
 - Exporting categories_df and subcategories_df as CSV files
+### REGEX:
+- Extracting the four-digit contact ID number.
+- Checking the datatypes
+- Convert the "contact_id" column to an int64 data type.
+- Extracting the name of the contact and add it to a new column.
+- Extracting the email from the contacts and add the values to a new column.
+- Creating a copy of the contact_info_df with the 'contact_id', 'name', 'email' columns.
+- Creating a "first"name" and "last_name" column with the first and last names from the "name" column. 
+- Dropping the contact_name column
+- Reordering the columns
+- Checking the datatypes one more time before exporting as CSV file.
+- Exporting the DataFrame as a CSV file. 
 
 
 # ANDREIA
@@ -35,14 +47,20 @@
 - Merging the campaign_df with the category_df on the "category" column and  the subcategory_df on the "subcategory" column.
 - Dropping unwanted columns
 - Exporting the DataFrame as a CSV file. 
+- Preparing the Entity Relations Diagram
 
 
 # ISABELLE
 
 ## Prepare the Data 
-- 
+- Creating a "first"name" and "last_name" column with the first and last names from the "name" column. 
+- Dropping the contact_name column
+- Reordering the columns
+- Checking the datatypes one more time before exporting as CSV file.
+- Exporting the DataFrame as a CSV file.
 
 
 # LINH
 - Iterating through the contact_info_df and convert each row to a dictionary.
+- Preparing the Write-Up README file
 
