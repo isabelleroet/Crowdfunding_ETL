@@ -11,7 +11,7 @@
 - Preparing The Entity Relations Diagram
 - Helping with cloning, pulling, merging, and pushing from individual branches to the main branch
 
-```  
+ 
 # MARY-ELIZABETH
 
 ## Prepare the Data 
@@ -22,7 +22,7 @@
 - Creating a category dataframe with the category_id array as the category_id and categories lists as the category name
 - Creating a category dataframe with the subcategory_id array as the subcategory_id and subcategories lists as the category name
 - Exporting categories_df and subcategories_df as CSV files
-```  
+
 
 # ANDREIA
 
@@ -30,14 +30,19 @@
 - Creating a copy of the crowfunding_info_df dataframe name campaign_df
 - Renaming the blurb, launched_at, and deadline columns.
 - Converting the goal and pledged columns to a `float` data type.
-```  
+- Checking the datatypes
+- Formatting the launched_date and end_date columns to datetime format
+- Merging the campaign_df with the category_df on the "category" column and  the subcategory_df on the "subcategory" column.
+- Dropping unwanted columns
+- Exporting the DataFrame as a CSV file. 
+
 
 # ISABELLE
 
 ## Prepare the Data 
-```The datasets are merged into a single DataFrame.  
-The number of mice are shown from the merged DataFrame.  
-Each duplicate mice is found based on the Mouse ID and Timepoint.  
-A clean DataFrame is created with the dropped duplicate mice. 
-The number of mice are shown from the clean DataFrame.
-```  
+- 
+
+
+# LINH
+- Iterating through the contact_info_df and convert each row to a dictionary.
+
